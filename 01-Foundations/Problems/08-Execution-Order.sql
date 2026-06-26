@@ -1,0 +1,41 @@
+-- ============================================
+-- Problem 08: Execution Order
+-- Difficulty: ⭐⭐ Medium (Conceptual)
+-- Tables: Employee
+-- Topics: SQL Execution Order, Aliases
+-- ============================================
+--
+-- QUESTION:
+-- The following query has a bug. Fix it.
+-- Explain WHY the original fails.
+--
+-- BUGGY QUERY:
+--   SELECT name, salary * 12 AS annual_salary
+--   FROM Employee
+--   WHERE annual_salary > 1000000
+--   ORDER BY annual_salary DESC;
+--
+-- After fixing, your query should return:
+--
+-- EXPECTED OUTPUT:
+-- ┌───────┬───────────────┐
+-- │ name  │ annual_salary │
+-- ├───────┼───────────────┤
+-- │ Alice │ 1140000       │
+-- │ Ivy   │ 1140000       │
+-- │ Eve   │ 1104000       │
+-- │ Hank  │ 1056000       │
+-- │ Bob   │ 1020000       │
+-- └───────┴───────────────┘
+--
+-- WHY DOES THE ORIGINAL FAIL?
+-- (Write your explanation as a comment below)
+--
+-- ============================================
+
+-- ▸ YOUR EXPLANATION:
+--
+--
+
+-- ▸ YOUR FIXED SOLUTION:
+

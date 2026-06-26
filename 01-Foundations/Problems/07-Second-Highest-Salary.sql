@@ -1,0 +1,27 @@
+-- ============================================
+-- Problem 07: Second Highest Salary
+-- Difficulty: ⭐⭐ Medium
+-- Tables: Employee
+-- Topics: DISTINCT, ORDER BY, LIMIT, OFFSET
+-- LeetCode: #176 — Second Highest Salary
+-- ============================================
+--
+-- QUESTION:
+-- Find the second highest DISTINCT salary from
+-- the Employee table. Return just the salary.
+--
+-- Note: There are two employees with salary
+-- 95000 (Alice and Ivy). The second highest
+-- distinct salary is 92000.
+--
+-- EXPECTED OUTPUT:
+-- ┌────────┐
+-- │ salary │
+-- ├────────┤
+-- │ 92000  │
+-- └────────┘
+--
+-- ============================================
+
+-- ▸ YOUR SOLUTION:
+

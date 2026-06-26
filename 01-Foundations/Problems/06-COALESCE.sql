@@ -1,0 +1,30 @@
+-- ============================================
+-- Problem 06: COALESCE
+-- Difficulty: ⭐⭐ Easy-Medium
+-- Tables: Customer
+-- Topics: COALESCE, NULL replacement
+-- ============================================
+--
+-- QUESTION:
+-- Show each customer's name and email.
+-- If a customer has no email (NULL), display
+-- 'no-email@unknown.com' instead.
+-- Sort by name.
+--
+-- EXPECTED OUTPUT:
+-- ┌───────┬──────────────────────┐
+-- │ name  │ email                │
+-- ├───────┼──────────────────────┤
+-- │ David │ no-email@unknown.com │
+-- │ Jane  │ jane@mail.com        │
+-- │ John  │ john@mail.com        │
+-- │ Lisa  │ lisa@mail.com        │
+-- │ Mike  │ mike@mail.com        │
+-- │ Sarah │ no-email@unknown.com │
+-- │ Tom   │ tom@mail.com         │
+-- └───────┴──────────────────────┘
+--
+-- ============================================
+
+-- ▸ YOUR SOLUTION:
+

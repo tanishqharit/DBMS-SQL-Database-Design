@@ -1,0 +1,31 @@
+-- ============================================
+-- Problem 01: Basic SELECT
+-- Difficulty: ⭐ Easy
+-- Tables: Employee
+-- Topics: SELECT, ORDER BY
+-- ============================================
+--
+-- QUESTION:
+-- Select the name and salary of all employees.
+-- Sort by name alphabetically.
+--
+-- EXPECTED OUTPUT:
+-- ┌─────────┬────────┐
+-- │ name    │ salary │
+-- ├─────────┼────────┤
+-- │ Alice   │ 95000  │
+-- │ Bob     │ 85000  │
+-- │ Charlie │ 72000  │
+-- │ Diana   │ 68000  │
+-- │ Eve     │ 92000  │
+-- │ Frank   │ 78000  │
+-- │ Grace   │ 71000  │
+-- │ Hank    │ 88000  │
+-- │ Ivy     │ 95000  │
+-- │ Jack    │ 62000  │
+-- └─────────┴────────┘
+--
+-- ============================================
+
+-- ▸ YOUR SOLUTION:
+

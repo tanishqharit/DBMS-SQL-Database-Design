@@ -1,0 +1,30 @@
+-- ============================================
+-- Problem 09: Combined Concepts
+-- Difficulty: ⭐⭐ Medium
+-- Tables: Employee, Department
+-- Topics: WHERE, CASE WHEN, ORDER BY, LIMIT
+-- ============================================
+--
+-- QUESTION:
+-- Find the top 3 highest-paid employees in
+-- department 1 (Engineering).
+-- Show: name, salary, and a column called
+-- 'tier' where:
+--   salary >= 90000 → 'Senior'
+--   salary >= 80000 → 'Mid'
+--   otherwise       → 'Junior'
+-- Sort by salary descending.
+--
+-- EXPECTED OUTPUT:
+-- ┌───────┬────────┬────────┐
+-- │ name  │ salary │ tier   │
+-- ├───────┼────────┼────────┤
+-- │ Alice │ 95000  │ Senior │
+-- │ Ivy   │ 95000  │ Senior │
+-- │ Eve   │ 92000  │ Senior │
+-- └───────┴────────┴────────┘
+--
+-- ============================================
+
+-- ▸ YOUR SOLUTION:
+

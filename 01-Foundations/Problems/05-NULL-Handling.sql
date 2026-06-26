@@ -1,0 +1,24 @@
+-- ============================================
+-- Problem 05: NULL Handling
+-- Difficulty: ⭐⭐ Easy-Medium
+-- Tables: Employee
+-- Topics: IS NULL, IS NOT NULL
+-- ============================================
+--
+-- QUESTION:
+-- Find all employees who do NOT have a manager
+-- (managerId is NULL).
+-- Show their name and departmentId.
+--
+-- EXPECTED OUTPUT:
+-- ┌───────┬──────────────┐
+-- │ name  │ departmentId │
+-- ├───────┼──────────────┤
+-- │ Alice │ 1            │
+-- │ Frank │ 3            │
+-- └───────┴──────────────┘
+--
+-- ============================================
+
+-- ▸ YOUR SOLUTION:
+
