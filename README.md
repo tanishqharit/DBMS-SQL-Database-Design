@@ -11,22 +11,23 @@ A structured SQL learning repository with **PostgreSQL-compatible** syntax, deta
 ### Setup
 ```bash
 # Install dependencies
-pip install -r requirements.txt
+pip install -r 00-Setup/requirements.txt
 
 # Verify everything works
-python3 test_setup.py
+python3 00-Setup/test_setup.py
 
 # Start the interactive SQL REPL
-python3 runner.py
+python3 00-Setup/runner.py
 ```
 
 ## 📁 Project Structure
 
 ```
 SQL/
-├── runner.py               # SQL runner — execute .sql files or use interactive REPL
-├── test_setup.py           # Verify your setup works
-├── requirements.txt        # Python dependencies
+├── 00-Setup/               # Environment setup files
+│   ├── runner.py           # SQL runner — execute .sql files or use interactive REPL
+│   ├── test_setup.py       # Verify your setup works
+│   └── requirements.txt    # Python dependencies
 │
 ├── 01-Foundations/          # SELECT, WHERE, ORDER BY, NULL handling
 ├── 02-Filtering/           # LIKE, IN, BETWEEN, CASE WHEN
