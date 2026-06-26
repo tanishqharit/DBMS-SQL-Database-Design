@@ -16,7 +16,7 @@ import duckdb
 # ─────────────────────────────────────────────
 # Configuration
 # ─────────────────────────────────────────────
-DB_PATH = ":memory:"  # In-memory database (no file created)
+DB_PATH = "leetcode.duckdb"  # Persistent database file
 
 # Table formatting
 MAX_COL_WIDTH = 30
