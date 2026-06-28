@@ -25,5 +25,6 @@
 --
 -- ============================================
 
--- ▸ YOUR SOLUTION:
-
+SELECT name, departmentID, salary
+FROM Employee
+WHERE (departmentID = 1 AND salary > 90000) OR departmentID = 2;

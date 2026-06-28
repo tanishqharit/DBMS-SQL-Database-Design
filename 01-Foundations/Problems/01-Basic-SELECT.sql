@@ -27,5 +27,6 @@
 --
 -- ============================================
 
--- ▸ YOUR SOLUTION:
-
+SELECT name, salary
+FROM Employee
+ORDER BY name ASC;

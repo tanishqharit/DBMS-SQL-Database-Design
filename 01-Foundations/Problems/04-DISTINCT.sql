@@ -20,5 +20,6 @@
 --
 -- ============================================
 
--- ▸ YOUR SOLUTION:
-
+SELECT DISTINCT departmentID
+FROM Employee
+ORDER BY departmentID ASC;

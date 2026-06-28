@@ -16,7 +16,9 @@ import duckdb
 # ─────────────────────────────────────────────
 # Configuration
 # ─────────────────────────────────────────────
-DB_PATH = "leetcode.duckdb"  # Persistent database file
+# Persistent database file — always resolved next to this script,
+# so tables persist regardless of which directory you run from.
+DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "leetcode.duckdb")
 
 # Table formatting
 MAX_COL_WIDTH = 30
@@ -75,6 +77,10 @@ def execute_sql(conn, sql):
     for stmt in statements:
         try:
             result = conn.execute(stmt)
+
+            # Comment-only segments return None — nothing to print.
+            if result is None:
+                continue
 
             # Check if this is a query that returns results
             if result.description:

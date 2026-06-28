@@ -23,5 +23,7 @@
 --
 -- ============================================
 
--- ▸ YOUR SOLUTION:
-
+SELECT name, departmentID, salary
+FROM Employee
+WHERE salary > 80000
+ORDER BY salary DESC

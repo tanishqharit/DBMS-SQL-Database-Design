@@ -25,3 +25,6 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Personal scratch solutions (temp holder until problems are solved)
+solutions.sql

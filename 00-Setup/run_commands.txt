@@ -1,0 +1,12 @@
+# Module 01: Foundations - Run Commands
+
+python3 00-Setup/runner.py 01-Foundations/Problems/01-Basic-SELECT.sql
+python3 00-Setup/runner.py 01-Foundations/Problems/02-WHERE-Filtering.sql
+python3 00-Setup/runner.py 01-Foundations/Problems/03-AND-OR.sql
+python3 00-Setup/runner.py 01-Foundations/Problems/04-DISTINCT.sql
+python3 00-Setup/runner.py 01-Foundations/Problems/05-NULL-Handling.sql
+python3 00-Setup/runner.py 01-Foundations/Problems/06-COALESCE.sql
+python3 00-Setup/runner.py 01-Foundations/Problems/07-Second-Highest-Salary.sql
+python3 00-Setup/runner.py 01-Foundations/Problems/08-Execution-Order.sql
+python3 00-Setup/runner.py 01-Foundations/Problems/09-Combined-Concepts.sql
+python3 00-Setup/runner.py 01-Foundations/Problems/10-NULL-Gotcha.sql
